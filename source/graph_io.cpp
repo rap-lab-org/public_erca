@@ -202,16 +202,10 @@ int SaveResultToFile(std::string fname, double time, search::EMOAResult* res) {
 		return -1;
   }
 
-  fout << "EMOAResults: " << std::endl;
-  fout << "time: " << time << std::endl;
-  fout << "n_generated: " << res->n_generated << std::endl;
-  fout << "n_expanded: " << res->n_expanded << std::endl;
-  fout << "n_domCheck: " << res->n_domCheck << std::endl;
+  fout << "Results: " << std::endl;
   fout << "rt_initHeu: " << res->rt_initHeu << std::endl;
   fout << "rt_search: " << res->rt_search << std::endl;
   fout << "timeout: " << res->timeout << std::endl;
-  fout << "num_nondom_labels_max: " << res->num_nondom_labels_max << std::endl;
-  fout << "num_nondom_labels_avg: " << res->num_nondom_labels_avg << std::endl;
   fout << "N: " << res->costs.size() << std::endl;
   int index = 0;
   for (const auto& kv: res->costs) {

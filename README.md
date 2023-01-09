@@ -65,10 +65,14 @@ Graph files used in the same run must correspond to each other line-by-line.
 
 ### Result file specifiction
 
-Result file contains 7 lines of metadata (graph_load_time, n_generated, n_expanded, n_domCheck, rt_initHeu, rt_search, N). N is the number of solutions found, which is always one.
+Result file contains multiple lines of metadata: 
+* rt_initHeu = runtime to initialize heuristics
+* rt_search = runtime to conduct the search
+* timeout = if the planner times out
+* N = the number of solutions found, which is always one.
 
 The computed solution is then listed in three lines:
-1. The first line contains `Label: {label_id}`, which can be ignored in practice.
-2. The second line contains the a vector of format (objective_value, resource_1_value, resource_2_value, ..., resource_(M-1)_value) of the solution path.
-3. The third line contains the solution path (a list of vertices).
+* The first line contains `Label: {label_id}`, which can be ignored in practice.
+* The second line contains the a vector of format (objective_value, resource_1_value, resource_2_value, ..., resource_(M-1)_value) of the solution path.
+* The third line contains the solution path (a list of vertices).
 

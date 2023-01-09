@@ -1,13 +1,7 @@
-EMOAResults: 
-time: 0.000727
-n_generated: 6
-n_expanded: 4
-n_domCheck: 4
-rt_initHeu: 0.000171284
-rt_search: 0.00035729
+Results: 
+rt_initHeu: 0.000175265
+rt_search: 0.000340499
 timeout: 0
-num_nondom_labels_max: 1
-num_nondom_labels_avg: 1
 N: 1
 Label: 11
 [4,6,8,]
