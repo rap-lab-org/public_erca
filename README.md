@@ -97,8 +97,10 @@ The computed solution is then listed in three lines:
 
 ### References
 
-* [1] [ERCA*: A New Approach for the Resource Constrained Shortest Path Problem](https://wonderren.github.io/files/ren23_ERCA_TITS.pdf).\
+* [1] ERCA*: A New Approach for the Resource Constrained Shortest Path Problem.\
   [Zhongqiang Ren]((https://wonderren.github.io/)), Zachary B. Rubinstein, Stephen F. Smith, Sivakumar Rathinam and Howie Choset.
+  [[Bibtex](https://wonderren.github.io/files/bibtex_ren23erca.txt)][[Paper](../files/ren23_ERCA_TITS.pdf)]
   
-* [2] [Enhanced Multi-Objective A* Using Balanced Binary Search Trees](https://wonderren.github.io/files/ren22_emoa_socs.pdf).\
-  Zhongqiang Ren, Richard Zhan, Sivakumar Rathinam, Maxim Likhachev and Howie Choset.
+* [2] Enhanced Multi-Objective A* Using Balanced Binary Search Trees.\
+  Zhongqiang Ren, Richard Zhan, Sivakumar Rathinam, Maxim Likhachev and Howie Choset.\
+  [[Bibtex](https://wonderren.github.io/files/bibtex_ren22emoa.txt)][[Paper](../files/ren22_emoa_socs.pdf)][[Code](https://github.com/wonderren/public_emoa)]
