@@ -2,7 +2,7 @@
 
 This work addresses a Resource Constrained Shortest Path Problem (RC-SPP) on a graph where the objective is to find a min-cost start-goal path while ensuring that the resource consumed along the path do not exceed the given limits.
 This repo provides a C++ implementation of Enhanced Resource Constrained A\* (ERCA\*) Algorithm, which is guaranteed to find an optimal solution path.
-This work is closely related to our previous work [2] and this code base take advantage of our previous [EMOA*](https://github.com/wonderren/public_emoa/).
+This work is closely related to our previous work [2] and this code base takes advantage of our previous [EMOA*](https://github.com/wonderren/public_emoa/).
 
 The code is distributed for academic and non-commercial use.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -98,7 +98,7 @@ The computed solution is then listed in three lines:
 ### References
 
 * [1] [ERCA*: A New Approach for the Resource Constrained Shortest Path Problem](https://wonderren.github.io/files/ren23_ERCA_TITS.pdf).\
-  Zhongqiang Ren, Zachary B. Rubinstein, Stephen F. Smith, Sivakumar Rathinam and Howie Choset.
+  [Zhongqiang Ren]((https://wonderren.github.io/)), Zachary B. Rubinstein, Stephen F. Smith, Sivakumar Rathinam and Howie Choset.
   
 * [2] [Enhanced Multi-Objective A* Using Balanced Binary Search Trees](https://wonderren.github.io/files/ren22_emoa_socs.pdf).\
   Zhongqiang Ren, Richard Zhan, Sivakumar Rathinam, Maxim Likhachev and Howie Choset.
